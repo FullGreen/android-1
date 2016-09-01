@@ -27,7 +27,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="android" name="android" remote="omnirom" revision="android-7.0" />
+  <project path="android" name="fullgreen/android_omnirom" remote="github" revision="android-7.0" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -527,5 +527,15 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+<!-- c1skt -->
+  <project path="device/samsung/c1skt" name="fullgreen/omnirom_device_samsung_c1skt" remote="github" revision="Android-7.0"/>
+  <project path="device/samsung/c1skt-common" name="fullgreen/cyanogenmod_device_samsung_c1skt-common" remote="github" revision="cm-14.0"/>
+  <project path="kernel/samsung/smdk4412" name="fullgreen/fullgreenkernel_smdk4412" remote="github" revision="cm-14.0"/>
+  <project path="vendor/samsung" name="fullgreen/cyanogenmod_proprietary_vendor_samsung" remote="github" revision="cm-14.0"/>
+  <project path="hardware/samsung" name="fullgreen/cyanogenmod_hardware_samsung" remote="github" revision="cm-14.0" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.0"/>
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-13.0"/>
+<!-- c1skt -->
 
 </manifest>
